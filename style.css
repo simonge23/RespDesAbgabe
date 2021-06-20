@@ -287,8 +287,10 @@ text-decoration: none;
         width: 100%;
     }
 
-
-
+    .animatednumber{
+        position: absolute;
+        font: 20px;
+}
 }
 
 .slider-image{
@@ -309,6 +311,7 @@ text-decoration: none;
     counter-set: num var(--num);
     font-family: 'fritz-kola';
     font: 600 300px system-ui;
+    line-height: 1.2em;
     color:#fff;
     position: absolute;
     left: 120px;
@@ -316,7 +319,7 @@ text-decoration: none;
 }
 
   .animatednumber p{
-    font: 600 300px system-ui;
+    font-size: 1,2em;
     color:#fff;
     position: absolute;
     left: 370px;
@@ -438,16 +441,7 @@ text-decoration: none;
     text-align: center;
     position: relative;
 }
-.testi-img .circle{
-    height: 345px;
-    width: 360px;
-    background-color: #ffffff;
-    position: absolute;
-    border-radius: 50%;
-    left: 0;
-    bottom: 0;
-    transition: all 0.5s ease;
-}
+
 .testi-img .img-box-inner{
     position: relative;
     border-radius: 0 0 180px 180px;
@@ -477,14 +471,14 @@ text-decoration: none;
 }
 .testi-item h3{
     color:#fff;
-    font-size: 20px;
+    font-size: 30px;
 }
 .testi-item p{
     color:#fff;
-    font-size: 15px;
+    font-size: 10px;
 }
 .testi-item h3{
-    text-transform: capitalize;
+    text-transform:uppercase;
 }
 
 /* Responsive */
@@ -542,7 +536,6 @@ text-decoration: none;
     text-align: left;
     font: bold 16px sans-serif;
     padding: 50px 50px 60px 50px;
-    margin-top: 80px;
 }
 
 .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
